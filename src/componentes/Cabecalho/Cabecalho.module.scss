@@ -1,4 +1,5 @@
 @import '../../styles/estilosGlobais.scss';
+@import "../../styles/variaveis";
 
 .cabecalho {
   display: flex;
@@ -35,7 +36,7 @@
     height: 30px;
     color: $cor-do-texto;
     font-size: 1rem;
-    font-family: "GandhiSansRegular";
+    font-family: $fonte-normal;
     border: none;
     background-color: transparent;
     outline: 0;

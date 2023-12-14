@@ -3,10 +3,10 @@ import styles from './Tags.module.scss'
 
 export default function Tags() {
   return (
-    <div>
+    <div className={styles.Tags__lista}>
       <p>Filtre por tags:</p>
-      <ul>
-        <li>Estrelas</li>
+      <ul >
+        <li className={styles.Tags}>Estrelas</li>
         <li>Galáxias</li>
         <li>Lua</li>
         <li>Planetas</li>

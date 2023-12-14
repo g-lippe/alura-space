@@ -23,8 +23,8 @@ export default function Galeria() {
               <div>
                 <p>{foto.creditos}</p>
                 <span>
-                  <img src={open} alt="ícone de curtir" />
-                  <img src={favorito} alt="ícone abrir modal" />
+                  <img src={favorito} alt="ícone de curtir" />
+                  <img src={open} alt="ícone abrir modal" />
                 </span>
               </div>
             </li>

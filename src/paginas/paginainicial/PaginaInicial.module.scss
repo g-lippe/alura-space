@@ -16,3 +16,9 @@ main {
   margin-left: 17%;
   margin-top: 1rem;
 }
+
+@media print {
+  .pagebreak {
+      color: white;
+  }
+}

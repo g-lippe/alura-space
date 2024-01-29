@@ -10,14 +10,13 @@ export default function Galeria() {
 
   const filtraFotos = (tag) => {
     const novasFotos = fotos.filter(foto => foto.tag === tag)
-
     setItens(novasFotos)
   }
 
   return (
     <section className={styles.galeria}>
       <h2>Navegue pela Galeria</h2>
-      <Tags tags={tags} filtraFotos={filtraFotos} />
+      <Tags tags={tags} filtraFotos={filtraFotos} setItens={setItens}/>
       <Cards itens={itens} styles={styles} />
     </section>
   )
